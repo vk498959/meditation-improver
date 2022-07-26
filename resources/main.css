@@ -1,0 +1,69 @@
+#div1 {
+    border: solid;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: silver;
+}
+
+#div2 {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    animation: anim 15s infinite;
+}
+
+#div3 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 45%;
+}
+
+@keyframes anim {
+    0% {
+        margin-left: -5.5%;
+        margin-top: -5.5%;
+        background-color: red;
+    }
+
+    25% {
+        margin-left: 94.5%;
+        margin-top: -5.5%;
+        background-color: green;
+    }
+
+    50% {
+        margin-left: 94.5%;
+        margin-top: 94.5%;
+        background-color: blue;
+    }
+
+    75% {
+        margin-left: -5.5%;
+        margin-top: 94.5%;
+        background-color: white;
+    }
+
+    100% {
+        margin-left: -5.5%;
+        margin-top: -5.5%;
+        background-color: black;
+    }
+}
+
+#time {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
