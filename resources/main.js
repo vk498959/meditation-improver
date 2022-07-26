@@ -8,7 +8,6 @@ var time = 300;
 ffullscreen.addEventListener("click", () => {
     if (center.fullscreenEnabled) {
         document.exitFullscreen();
-        console.log("hello");
     }
     else {
         center.requestFullscreen();
